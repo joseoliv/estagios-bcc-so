@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "C:\\Dropbox\\doc\\estagio\\new-docs\\web",
+    "exportPath": "C:\\Dropbox\\doc\\estagio\\estagios-bcc-so\\web",
     "filesToExport": [],
     "useFallbackRenderer": false,
     "addBodyClasses": true,
