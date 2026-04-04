@@ -1,0 +1,7 @@
+/* Ajusta o tamanho de todos os Mermaids no Obsidian */
+.mermaid svg {
+    max-width: 800px !important;
+    height: auto !important;
+    display: block;
+    margin: auto;
+}

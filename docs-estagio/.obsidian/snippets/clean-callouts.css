@@ -1,0 +1,14 @@
+/* This targets the title bar and icon specifically */
+.callout[data-callout-metadata="clean"] > .callout-title {
+    display: none !important;
+}
+
+/* This adjusts the padding so the box doesn't look cramped without a title */
+.callout[data-callout-metadata="clean"] > .callout-content {
+    padding-top: 5px !important;
+}
+
+/* Ensures the background still shows up correctly */
+.callout[data-callout-metadata="clean"] {
+    padding: 10px !important;
+}

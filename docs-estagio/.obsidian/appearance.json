@@ -1,0 +1,14 @@
+{
+  "enabledCssSnippets": [
+    "clean-callouts",
+    "callout-no-title",
+    "callout-blue",
+    "callout-green",
+    "callout-red",
+    "callout-grey",
+    "mermaid-fix"
+  ],
+  "interfaceFontFamily": "",
+  "textFontFamily": "Helvetica",
+  "showViewHeader": true
+}

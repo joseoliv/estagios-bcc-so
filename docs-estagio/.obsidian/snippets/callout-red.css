@@ -1,0 +1,47 @@
+/* 🔴 Reset variables for nested callouts */
+.callout .callout {
+  --callout-color: initial !important;
+  --callout-border: initial !important;
+  --callout-background: initial !important;
+}
+
+
+/* Define the custom callout */
+.callout[data-callout="red"] {
+  --callout-color: 255, 0, 0 !important; /* red */
+  
+  
+  /* remove outer spacing */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;  
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/* Hide ONLY the title text and icon, but keep the container */
+.callout[data-callout="red"] .callout-title-inner,
+.callout[data-callout="red"] .callout-icon {
+  display: none;
+}
+
+/* Reduce title spacing so no empty gap remains */
+.callout[data-callout="red"] .callout-title {
+  padding: 0;
+  min-height: 0;
+}
+
+/* Remove content spacing */
+.callout[data-callout="red"] .callout-content {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* 🔴 IMPORTANT: remove paragraph margins */
+.callout[data-callout="red"] .callout-content > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+

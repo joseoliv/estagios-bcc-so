@@ -1,0 +1,9 @@
+/* Hide callout title and icon */
+.callout[data-callout="info"] .callout-title {
+  display: none;
+}
+
+/* Optional: adjust padding so content looks nice */
+.callout[data-callout="info"] .callout-content {
+  padding-top: 8px;
+}
